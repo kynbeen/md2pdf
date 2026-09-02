@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md2pdf-clean"
+version = "0.1.0"
+description = "High-fidelity Markdown to PDF renderer with refined typography and smart figure layout"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "kynbeen", email = "ruxxls.sina@gmail.com" }
+]
+keywords = ["markdown", "pdf", "playwright", "typography", "renderer"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: Markdown",
+    "Topic :: Printing",
+]
+dependencies = [
+    "markdown>=3.7",
+    "playwright>=1.40",
+    "pymupdf>=1.24",
+]
+
+[project.scripts]
+md2pdf = "md2pdf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"md2pdf" = [
+    "assets/*.css",
+    "assets/fonts/*.ttf",
+    "assets/themes/*.css",
+    "assets/themes/github/*.woff2",
+]
