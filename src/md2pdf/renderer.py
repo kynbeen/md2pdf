@@ -595,3 +595,4 @@ def render(
 
     log(f"[md2pdf] Successfully generated: {output_file} ({size / (1024 * 1024):.2f} MB)")
     return output_file
+

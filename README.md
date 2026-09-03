@@ -137,3 +137,4 @@ md2pdf/
 - **Source Code**: [MIT License](LICENSE)
 - **Pretendard Font**: [SIL Open Font License 1.1](https://github.com/orioncactus/pretendard) (자유로운 상업적/비상업적 이용 가능)
 - **Open Sans Font**: [Apache License 2.0](https://fonts.google.com/specimen/Open+Sans)
+

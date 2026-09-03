@@ -39,3 +39,4 @@ where = ["src"]
     "assets/themes/*.css",
     "assets/themes/github/*.woff2",
 ]
+

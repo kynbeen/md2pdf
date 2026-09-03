@@ -160,3 +160,4 @@ def preprocess_markdown(text: str) -> str:
     text = normalize_list_indent(text)
     text = pad_blocks(text)
     return text.strip("\n") + "\n"
+
