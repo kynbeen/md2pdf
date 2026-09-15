@@ -7,7 +7,7 @@
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-brightgreen.svg)](https://www.python.org/)
 [![Engine: Playwright](https://img.shields.io/badge/Engine-Playwright%20Chromium-orange.svg)](https://playwright.dev/)
 
-`md2pdf`는 복잡한 LaTeX이나 무거운 외부 툴체인 없이, **마크다운(`.md`) 파일 하나로 세련된 A4 출판용 PDF를 생성**하는 독립 도구입니다. `summary.ai`의 고품질 문서화 파이프라인에서 핵심 렌더러를 추출하여 단독으로 사용할 수 있도록 패키징했습니다.
+`md2pdf`는 복잡한 LaTeX이나 무거운 외부 툴체인 없이, **마크다운(`.md`) 파일 하나로 세련된 A4 출판용 PDF를 생성**하는 독립 도구입니다. `Sleek`의 고품질 문서화 파이프라인에서 핵심 렌더러를 추출하여 단독으로 사용할 수 있도록 패키징했습니다.
 
 ---
 
