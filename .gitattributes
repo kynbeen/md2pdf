@@ -1,0 +1,6 @@
+# 줄끝 정책(S9, 2026-10-22): 텍스트는 LF, Windows 배치 파일은 CRLF. 뒤의 줄이 앞의 줄을 덮는다.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+# Markdown 의 줄 끝 공백 두 칸은 강제 줄바꿈이다. git diff --check 의 줄 끝 공백 검사에서만 뺀다.
+*.md whitespace=-blank-at-eol
